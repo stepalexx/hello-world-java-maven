@@ -11,3 +11,5 @@ Firtsly, Install tomcat with docker with password "mypass", then access tomcat t
 
 <code>docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tutum/tomcat</code>
 
+# Install mvn
+export M2_HOME=/opt/apache-maven-3.3.9
