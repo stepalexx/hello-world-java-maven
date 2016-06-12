@@ -1,4 +1,4 @@
-# hello-world-java-maven
+# Hello World Java Program Buid With Maven
 Hello World Java Program Build With Maven
 # Building the Application
 To build the application, make sure you have Maven installed. Then, cd into the root directory and execute:
