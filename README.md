@@ -13,3 +13,4 @@ Firtsly, Install tomcat with docker with password "mypass", then access tomcat t
 
 # Install mvn
 export M2_HOME=/opt/apache-maven-3.3.9
+export PATH=/var/jenkins_home/apache-maven-3.3.9/bin:$PATH
