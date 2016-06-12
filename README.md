@@ -8,5 +8,6 @@ To build the application, make sure you have Maven installed. Then, cd into the 
 That will create the hello-java-1.0.war file within the 'target' directory.
 # Deploy application
 Firtsly, Install tomcat with docker with password "mypass", then access tomcat to deploy hello-java-1.0.war
-docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tutum/tomcat
+
+<code>docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tutum/tomcat</code>
 
